@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="cloudscribe.Core.Models" Version="2.0.10" />
+    <PackageReference Include="cloudscribe.Core.Web" Version="2.0.26" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="ids.core.membership.plugin">
+      <HintPath>..\ids.core.membership.plugin\bin\Debug\netstandard2.0\ids.core.membership.plugin.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
