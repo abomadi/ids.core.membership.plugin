@@ -23,7 +23,7 @@ https://marketplace.visualstudio.com/items?itemName=joeaudette.cloudscribeProjec
  - Install the CloudScribe Template for Visual Studio
  - Create a new CloudScribe project and check the Include IdentityServer4 Integration
  - Add reference for ids.cloudscribe.auth.dll and ids.core.membership.plugin.dll to your project
- - Open your Startup.cs class file and add this Membership provider on your project startup service collection 
+ - Open your Startup.cs class file and add this Membership provider on your project identityserver startup service collection 
 
     .AddMembershipService(new MembershipOptions
     {ConnectionString = "Data Source=localhost-source;Initial Catalog=dbschema;User ID=dbuser;Password=password",ApplicationName = "aspnetapplicationname"});   
